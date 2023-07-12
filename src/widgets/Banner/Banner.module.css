@@ -10,7 +10,7 @@
 }
 
 .banner_inner > a {
-	display: inline;
+	display: inline-block;
 }
 
 .banner_inner > a > img {
