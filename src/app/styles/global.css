@@ -1,5 +1,5 @@
 :root {
-	--color-bg-primary: #0051ff;
+	--color-bg-primary: #0566fa;
 	--color-bg-secondary: #f95d51;
 	--color-link: #00c6f2;
 	--color-white: #fff;
@@ -28,6 +28,18 @@ body,
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
+}
+
+.header {
+	background-color: var(--color-black);
+	min-height: 1000px;
+}
+
+.test {
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .page {

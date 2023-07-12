@@ -1,0 +1,48 @@
+/* Скелет */
+
+.link {
+	text-decoration: none;
+	display: inline-flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	transition: 0.3s color, 0.3s background, 0.3s border;
+}
+
+.link_size {
+	padding: 8px 17px;
+}
+
+.link_primary {
+	border: 1px solid var(--color-white);
+	color: var(--color-white);
+	background: transparent;
+}
+
+/* Компьютерное устройство L */
+@media (min-width: 62rem) {
+}
+
+/* Мобильные устройства MD */
+@media (min-width: 48rem) {
+}
+
+/* Мобильные устройства sm */
+@media (min-width: 36rem) {
+}
+
+@media (hover: hover) {
+	/* when hover is supported */
+	.link_primary:hover {
+		border: 1px solid var(--color-bg-primary);
+		background: var(--color-bg-primary);
+	}
+}
+
+@media (hover: none) {
+	/* when hover is supported */
+	.link_primary:active {
+		border: 1px solid var(--color-bg-primary);
+		background: var(--color-bg-primary);
+	}
+}

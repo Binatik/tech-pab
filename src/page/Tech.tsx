@@ -1,5 +1,5 @@
 function Tech() {
-	return <></>
+	return <>page</>
 }
 
 export { Tech }

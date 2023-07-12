@@ -1,0 +1,10 @@
+.login {
+	fill: #fff;
+	gap: 5px;
+}
+
+.login > svg {
+	width: 25px;
+	height: 25px;
+	stroke-width: 2px;
+}
