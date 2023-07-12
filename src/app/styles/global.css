@@ -1,0 +1,39 @@
+:root {
+	--color-bg-primary: #0051ff;
+	--color-bg-secondary: #f95d51;
+	--color-link: #00c6f2;
+	--color-white: #fff;
+	--color-black: #000;
+
+	--container-extra: calc(1200px - 10px);
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	vertical-align: top;
+	font-weight: 400;
+	font-family: 'Arial', sans-serif;
+	line-height: 1.1875;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.page {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
