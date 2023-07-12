@@ -1,0 +1,24 @@
+.banner {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.banner_inner {
+	flex: 1 1 auto;
+}
+
+.banner_inner > a {
+	display: inline;
+}
+
+.banner_inner > a > img {
+	width: 220px;
+	height: auto;
+}
+
+.group {
+	display: flex;
+	gap: 10px;
+}

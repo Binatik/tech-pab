@@ -11,6 +11,7 @@
 
 .link_size {
 	padding: 8px 17px;
+	min-height: 45px;
 }
 
 .link_primary {
