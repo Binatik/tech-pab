@@ -1,6 +1,6 @@
 import { AnchorHTMLAttributes, DetailedHTMLProps } from 'react'
 
-export interface IButtonProps
+export interface ILinkProps
 	extends DetailedHTMLProps<AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement> {
 	mode: 'primary'
 	size: 'medium'

@@ -1,0 +1,63 @@
+/* Скелет */
+
+.paragraph_size_small {
+	font-size: 1rem;
+}
+
+.paragraph_size_medium {
+	font-size: 1.125rem;
+}
+
+.paragraph_size_large {
+	font-size: 1.25rem;
+}
+
+.paragraph_size_extra {
+	font-size: 2.25rem;
+}
+
+.paragraph_size_super {
+	font-size: 3.875rem;
+}
+
+.paragraph_primary {
+	color: var(--color-black);
+}
+
+.paragraph_secondary {
+	color: var(--color-white);
+}
+
+/* Компьютерное устройство L */
+@media (min-width: 62rem) {
+	.paragraph_size_extra {
+		font-size: 2rem;
+	}
+
+	.paragraph_size_super {
+		font-size: 2.562rem;
+	}
+}
+
+/* Мобильные устройства MD */
+@media (min-width: 48rem) {
+}
+
+/* Мобильные устройства sm */
+@media (min-width: 36rem) {
+	.paragraph_size_extra {
+		font-size: 1.75rem;
+	}
+
+	.paragraph_size_super {
+		font-size: 1.875rem;
+	}
+}
+
+@media (hover: hover) {
+	/* when hover is supported */
+}
+
+@media (hover: none) {
+	/* when hover is supported */
+}

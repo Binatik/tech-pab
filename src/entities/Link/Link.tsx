@@ -1,8 +1,8 @@
 import classNames from 'classnames'
-import { IButtonProps } from './Link.interface'
+import { ILinkProps } from './Link.interface'
 import styles from './Link.module.css'
 
-function Link({ children, mode, size, href, className, ...props }: IButtonProps) {
+function Link({ children, mode, size, href, className, ...props }: ILinkProps) {
 	return (
 		<a
 			href={href}
