@@ -1,4 +1,4 @@
-import { Link } from '../../entities'
+import { Link, Paragraph } from '../../entities'
 
 function Order() {
 	function orderMember(): void {
@@ -6,7 +6,9 @@ function Order() {
 	}
 	return (
 		<Link onClick={orderMember} href="#" mode="primary" size="medium">
-			<p>Заказать звонок</p>
+			<Paragraph mode="secondary" size="small16">
+				Заказать звонок
+			</Paragraph>
 		</Link>
 	)
 }
