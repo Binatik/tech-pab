@@ -1,0 +1,34 @@
+/* Скелет */
+
+.logo_wide {
+	flex: 1 1 auto;
+}
+
+.logo_link {
+	display: inline-block;
+}
+
+.logo_size_medium {
+	width: 220px;
+	height: auto;
+}
+
+/* Компьютерное устройство L */
+@media (min-width: 62rem) {
+}
+
+/* Мобильные устройства MD */
+@media (min-width: 48rem) {
+}
+
+/* Мобильные устройства sm */
+@media (min-width: 36rem) {
+}
+
+@media (hover: hover) {
+	/* when hover is supported */
+}
+
+@media (hover: none) {
+	/* when hover is supported */
+}
