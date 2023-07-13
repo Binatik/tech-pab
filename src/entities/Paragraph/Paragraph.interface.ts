@@ -3,6 +3,6 @@ import { DetailedHTMLProps, HTMLAttributes } from 'react'
 export interface IParagraphProps
 	extends DetailedHTMLProps<HTMLAttributes<HTMLParagraphElement>, HTMLParagraphElement> {
 	mode: 'primary' | 'secondary'
-	size: 'small16' | 'medium18' | 'large20' | 'extra36' | 'super62'
+	size: 'small16' | 'medium18' | 'large20' | 'extra36' | 'super56'
 	children: React.ReactNode
 }

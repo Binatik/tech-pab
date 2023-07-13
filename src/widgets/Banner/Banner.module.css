@@ -1,0 +1,49 @@
+.banner {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: calc(100vh - 18rem);
+	gap: 10px;
+}
+
+.banner_paragraph {
+	max-width: 50%;
+}
+
+.banner_img {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 40%;
+	display: block;
+	object-fit: contain;
+	z-index: 1;
+}
+
+/* Компьютерное устройство L */
+@media (max-width: 62rem) {
+	/* .banner_img {
+		width: 80%;
+	} */
+}
+
+/* Мобильные устройства MD */
+@media (max-width: 48rem) {
+}
+
+/* Мобильные устройства sm */
+@media (max-width: 36rem) {
+	.banner {
+		min-height: calc(100vh - 33rem);
+	}
+
+	.banner_paragraph {
+		max-width: 100%;
+	}
+
+	.banner_img {
+		width: 300px;
+		top: 100%;
+	}
+}
