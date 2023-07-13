@@ -31,7 +31,7 @@ body,
 }
 
 .header {
-	padding-top: 15px;
+	padding: 15px 0 30px;
 	background-color: var(--color-black);
 	min-height: 100vh;
 }
