@@ -10,14 +10,28 @@
 	transition: 0.3s color, 0.3s background, 0.3s border;
 }
 
-.link_size {
+.link_size_medium {
 	padding: 8px 26px;
+}
+
+.link_size_large {
+	padding: 16px 50px;
 }
 
 .link_primary {
 	border: 1px solid var(--color-white);
 	color: var(--color-white);
 	background: transparent;
+}
+
+.link_secondary {
+	border: 1px solid var(--color-bg-primary);
+	color: var(--color-white);
+	background: var(--color-bg-primary);
+}
+
+.link_secondary > p {
+	font-weight: 600;
 }
 
 /* Компьютерное устройство L */
@@ -40,6 +54,15 @@
 	.link_primary:hover {
 		border: 1px solid var(--color-bg-primary);
 		background: var(--color-bg-primary);
+	}
+
+	.link_secondary:hover {
+		border: 1px solid var(--color-bg-primary);
+		background: var(--color-black);
+	}
+
+	.link_secondary:hover > p {
+		color: var(--color-link);
 	}
 }
 

@@ -7,6 +7,13 @@
 	gap: 10px;
 }
 
+.banner_inner {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3rem;
+}
+
 .banner_paragraph {
 	max-width: 50%;
 }
@@ -35,7 +42,7 @@
 /* Мобильные устройства sm */
 @media (max-width: 36rem) {
 	.banner {
-		min-height: calc(100vh - 33rem);
+		min-height: calc(100vh - 26rem);
 	}
 
 	.banner_paragraph {
@@ -45,5 +52,6 @@
 	.banner_img {
 		width: 300px;
 		top: 100%;
+		transform: translateY(20%);
 	}
 }

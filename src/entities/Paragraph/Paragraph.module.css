@@ -1,5 +1,9 @@
 /* Скелет */
 
+.paragraph {
+	transition: 0.3s color;
+}
+
 .paragraph_size_small {
 	font-size: 1rem;
 }
