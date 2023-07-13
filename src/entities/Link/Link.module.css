@@ -34,6 +34,10 @@
 	font-weight: 600;
 }
 
+.link:focus {
+	outline: 1px solid #f01212 !important;
+}
+
 /* Компьютерное устройство L */
 @media (max-width: 62rem) {
 }
@@ -71,5 +75,10 @@
 	.link_primary:active {
 		border: 1px solid var(--color-bg-primary);
 		background: var(--color-bg-primary);
+	}
+
+	.link_secondary:active {
+		border: 1px solid var(--color-bg-primary);
+		background: var(--color-black);
 	}
 }
