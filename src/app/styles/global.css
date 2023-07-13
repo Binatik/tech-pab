@@ -33,7 +33,7 @@ body,
 .header {
 	padding-top: 15px;
 	background-color: var(--color-black);
-	min-height: 1000px;
+	min-height: 100vh;
 }
 
 .container {
