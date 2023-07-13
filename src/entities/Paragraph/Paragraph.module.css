@@ -29,7 +29,7 @@
 }
 
 /* Компьютерное устройство L */
-@media (min-width: 62rem) {
+@media (max-width: 62rem) {
 	.paragraph_size_extra {
 		font-size: 2rem;
 	}
@@ -40,11 +40,11 @@
 }
 
 /* Мобильные устройства MD */
-@media (min-width: 48rem) {
+@media (max-width: 48rem) {
 }
 
 /* Мобильные устройства sm */
-@media (min-width: 36rem) {
+@media (max-width: 36rem) {
 	.paragraph_size_extra {
 		font-size: 1.75rem;
 	}

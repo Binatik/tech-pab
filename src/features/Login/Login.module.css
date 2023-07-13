@@ -8,3 +8,21 @@
 	height: 25px;
 	stroke-width: 2px;
 }
+
+/* Компьютерное устройство L */
+@media (max-width: 62rem) {
+}
+
+/* Мобильные устройства MD */
+@media (max-width: 48rem) {
+	.login > svg {
+		display: block;
+	}
+}
+
+/* Мобильные устройства sm */
+@media (max-width: 36rem) {
+	.login > svg {
+		display: none;
+	}
+}

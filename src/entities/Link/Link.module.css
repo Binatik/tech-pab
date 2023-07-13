@@ -1,6 +1,7 @@
 /* Скелет */
 
 .link {
+	flex-shrink: 0;
 	text-decoration: none;
 	display: inline-flex;
 	text-align: center;
@@ -10,8 +11,7 @@
 }
 
 .link_size {
-	padding: 8px 22px;
-	min-height: 45px;
+	padding: 8px 26px;
 }
 
 .link_primary {
@@ -21,15 +21,18 @@
 }
 
 /* Компьютерное устройство L */
-@media (min-width: 62rem) {
+@media (max-width: 62rem) {
 }
 
 /* Мобильные устройства MD */
-@media (min-width: 48rem) {
+@media (max-width: 48rem) {
 }
 
 /* Мобильные устройства sm */
-@media (min-width: 36rem) {
+@media (max-width: 36rem) {
+	.link {
+		flex: 1 1 auto;
+	}
 }
 
 @media (hover: hover) {

@@ -45,6 +45,7 @@ body,
 .list {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -54,4 +55,19 @@ body,
 
 .footer {
 	flex: 0 0 auto;
+}
+
+/* Компьютерное устройство L */
+@media (max-width: 62rem) {
+}
+
+/* Мобильные устройства MD */
+@media (max-width: 48rem) {
+}
+
+/* Мобильные устройства sm */
+@media (max-width: 36rem) {
+	.list {
+		flex-direction: column;
+	}
 }
