@@ -1,0 +1,14 @@
+.list_items {
+	list-style-type: none;
+	margin-bottom: 30px;
+}
+
+.list_item {
+	margin-bottom: 0.2rem;
+	padding: 0;
+}
+
+.list_item > a {
+	margin: 0;
+	padding: 0;
+}
