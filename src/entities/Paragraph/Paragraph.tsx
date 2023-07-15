@@ -10,7 +10,6 @@ function Paragraph({ mode, size, className, children }: IParagraphProps) {
 				[styles.paragraph_size_medium]: size === 'medium18',
 				[styles.paragraph_size_large]: size === 'large20',
 				[styles.paragraph_size_extra]: size === 'extra36',
-				[styles.paragraph_size_super]: size === 'super56',
 				[styles.paragraph_primary]: mode === 'primary',
 				[styles.paragraph_secondary]: mode === 'secondary',
 			})}>

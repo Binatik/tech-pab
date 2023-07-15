@@ -1,0 +1,49 @@
+.heading_size_small {
+	font-size: 0.875rem;
+}
+
+.heading_size_medium {
+	font-size: 1.25rem;
+}
+
+.heading_size_extra {
+	font-size: 2.56rem;
+}
+
+.heading_size_super {
+	font-size: 3.5rem;
+}
+
+.heading_primary {
+	color: var(--color-black);
+}
+
+.heading_secondary {
+	color: var(--color-white);
+}
+
+/* Компьютерное устройство L */
+@media (max-width: 62rem) {
+	.heading_size_extra {
+		font-size: 1.937rem;
+	}
+
+	.heading_size_super {
+		font-size: 2.562rem;
+	}
+}
+
+/* Мобильные устройства MD */
+@media (max-width: 48rem) {
+}
+
+/* Мобильные устройства sm */
+@media (max-width: 36rem) {
+	.heading_size_extra {
+		font-size: 1.625rem;
+	}
+
+	.heading_size_super {
+		font-size: 1.875rem;
+	}
+}
