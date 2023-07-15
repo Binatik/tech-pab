@@ -1,0 +1,44 @@
+.frame {
+	padding: 50px 30px;
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--color-black);
+	border-radius: var(--border);
+}
+
+.frame_item {
+	flex: 1 1;
+}
+
+.frame_heading {
+	margin-bottom: 30px;
+}
+
+.frame_paragraph {
+	margin-bottom: 30px;
+}
+
+.frame_button {
+	text-align: right;
+}
+
+/* Компьютерное устройство L */
+@media (max-width: 62rem) {
+}
+
+/* Мобильные устройства MD */
+@media (max-width: 48rem) {
+	.frame {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+/* Мобильные устройства sm */
+@media (max-width: 36rem) {
+	.frame_button {
+		text-align: left;
+	}
+}

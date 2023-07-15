@@ -5,7 +5,9 @@
 	--color-white: #fff;
 	--color-black: #121212;
 
-	--container-extra: calc(1200px - 10px);
+	--border: 10px;
+
+	--container-extra: calc(1200px + 40px);
 }
 
 *,
@@ -53,6 +55,10 @@ body,
 
 .bg-black {
 	background-color: var(--color-black);
+}
+
+.bg-white {
+	background-color: var(--color-white);
 }
 
 /* Компьютерное устройство L */

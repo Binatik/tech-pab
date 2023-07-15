@@ -1,14 +1,12 @@
-import classnames from 'classnames'
 import { Heading, Paragraph } from '../../entities'
 import leadspace2 from '../../assets/leadspace2.png'
 import styles from './Banner.module.css'
-import { IBanerProps } from './Banner.interface'
 import { GetProgram } from '../../features'
 
-function Banner({ className }: IBanerProps) {
+function Banner() {
 	return (
-		<div className={classnames(styles.banner, className)}>
-			<div className={classnames(styles.banner_inner)}>
+		<div className={styles.banner}>
+			<div className={styles.banner_inner}>
 				<Heading
 					className={styles.banner_heading}
 					mode="secondary"
