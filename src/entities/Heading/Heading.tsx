@@ -6,7 +6,7 @@ function Heading({ heading, mode, size, className, children }: IHeadingProps) {
 	const styleList = {
 		[styles.heading_primary]: mode === 'primary',
 		[styles.heading_secondary]: mode === 'secondary',
-		[styles.heading_size_small]: size === 'small14',
+		[styles.heading_size_small]: size === 'small16',
 		[styles.heading_size_medium]: size === 'medium18',
 		[styles.heading_size_extra]: size === 'extra41',
 		[styles.heading_size_super]: size === 'super56',

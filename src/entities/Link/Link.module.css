@@ -1,13 +1,13 @@
 /* Скелет */
 
 .link {
-	flex-shrink: 0;
 	text-decoration: none;
-	display: inline-flex;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
 	transition: 0.3s color, 0.3s background, 0.3s border;
+}
+
+.link_size_none {
+	margin: 0;
+	padding: 0;
 }
 
 .link_size_medium {
@@ -68,6 +68,10 @@
 	.link_secondary:hover > p {
 		color: var(--color-link);
 	}
+
+	.link_inline:hover {
+		text-decoration: underline;
+	}
 }
 
 @media (hover: none) {
@@ -80,5 +84,9 @@
 	.link_secondary:active {
 		border: 1px solid var(--color-bg-primary);
 		background: var(--color-black);
+	}
+
+	.link_inline:active {
+		text-decoration: underline;
 	}
 }

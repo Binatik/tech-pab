@@ -9,6 +9,8 @@ function Link({ children, mode, size, href, className, ...props }: ILinkProps) {
 			className={classNames(styles.link, className, {
 				[styles.link_primary]: mode === 'primary',
 				[styles.link_secondary]: mode === 'secondary',
+				[styles.link_inline]: mode === 'inline',
+				[styles.link_size_none]: size === 'none',
 				[styles.link_size_medium]: size === 'medium',
 				[styles.link_size_large]: size === 'large',
 			})}

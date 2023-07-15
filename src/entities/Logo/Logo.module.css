@@ -1,5 +1,9 @@
 /* Скелет */
 
+.logo {
+	flex: 0 0 auto;
+}
+
 .logo_wide {
 	flex: 1 1 auto;
 }

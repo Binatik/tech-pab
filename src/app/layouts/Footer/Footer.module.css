@@ -1,10 +1,51 @@
 .footer_content {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	gap: 10px;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.footer_card {
+	display: flex;
+	flex-direction: column;
 }
 
 .footer_info {
-	margin: 30px 0 60px;
+	margin-top: 15px;
+	max-width: 163px;
+}
+
+.foter_cop {
+	margin-top: -30px;
+}
+
+/* Компьютерное устройство L */
+@media (min-width: 62rem) {
+}
+
+/* Мобильные устройства MD */
+@media (max-width: 48rem) {
+	.footer_card {
+		flex: 1 1 auto;
+	}
+
+	.foter_cop {
+		margin-top: 0;
+	}
+}
+
+/* Мобильные устройства sm */
+@media (max-width: 36rem) {
+}
+
+@media (max-width: 26rem) {
+	.card_top {
+		display: flex;
+		flex-direction: row;
+		gap: 3rem;
+	}
+
+	.footer_info {
+		max-width: 100%;
+	}
 }

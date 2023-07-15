@@ -5,10 +5,12 @@ import styles from './ListPrimary.module.css'
 function List({ list, title }: IListPrimaryProps) {
 	return (
 		<>
-			<Heading heading="h2" mode="primary" size="medium18">
-				{title}
-			</Heading>
 			<ul className={styles.list_items}>
+				<li>
+					<Heading heading="h2" mode="primary" size="small16">
+						{title}
+					</Heading>
+				</li>
 				{list.map((item) => (
 					<li key={item.id} className={styles.list_item}>
 						<Link size="medium" mode="inline" href={item.href}>
