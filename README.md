@@ -2,9 +2,9 @@
 
 ---
 
-<!-- <img width="1162" alt="image" src="https://github.com/Binatik/images/assets/47430210/3a87ec04-64aa-4626-9a2c-2d8830b7d632"> -->
-
 Этот репозиторий содержит реализацию тестового задания для компании `Positive Innovations` [по шаблону](https://inseca.tech) Разрешается добавлять и / или изменять некоторые моменты в дизайне на усмотрение автора.
+
+<img width="1162" alt="image" src="https://github.com/Binatik/images/assets/47430210/e187cdbd-fc6b-4bc5-b4e2-33b1c0a468cc">
 
 Посмотреть на результат можно [здесь](https://tech-pub.netlify.app).
 
