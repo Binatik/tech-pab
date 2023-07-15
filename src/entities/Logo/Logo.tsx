@@ -1,23 +1,28 @@
 import { ILogoProps } from './Logo.interface'
 import logo from '../../assets/logo.png'
+import logotwo from '../../assets/logotwo.png'
 import { Link } from '../Link/Link'
 import styles from './Logo.module.css'
 import classNames from 'classnames'
 
-function Logo({ size, wide, className }: ILogoProps) {
+function Logo({ size, wide, id, className }: ILogoProps) {
+	const styleList = {
+		[styles.logo_size_small]: size === 'small',
+		[styles.logo_size_medium]: size === 'medium',
+	}
 	return (
 		<div
 			className={classNames(styles.logo, className, {
 				[styles.logo_wide]: wide,
 			})}>
 			<Link className={styles.logo_link} size="medium" mode="inline" href="#">
-				<img
-					className={classNames({
-						[styles.logo_size_medium]: size === 'medium',
-					})}
-					src={logo}
-					alt="logo"
-				/>
+				{id === 'primary' && (
+					<img className={classNames(styleList)} src={logo} alt="logo_primary" />
+				)}
+
+				{id === 'secondary' && (
+					<img className={classNames(styleList)} src={logotwo} alt="logo_primary" />
+				)}
 			</Link>
 		</div>
 	)

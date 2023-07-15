@@ -33,7 +33,6 @@ body,
 .header {
 	padding: 15px 0 30px;
 	background-color: var(--color-black);
-	min-height: 100vh;
 }
 
 .container {
@@ -42,18 +41,18 @@ body,
 	margin: 0 auto;
 }
 
-.list {
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-}
-
 .page {
 	flex: 1 0 auto;
 }
 
 .footer {
 	flex: 0 0 auto;
+	min-height: 1000px;
+	padding: 100px 0;
+}
+
+.bg-black {
+	background-color: var(--color-black);
 }
 
 /* Компьютерное устройство L */

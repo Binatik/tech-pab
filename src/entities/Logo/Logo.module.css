@@ -13,6 +13,11 @@
 	height: auto;
 }
 
+.logo_size_small {
+	width: 100px;
+	height: auto;
+}
+
 /* Компьютерное устройство L */
 @media (max-width: 62rem) {
 }

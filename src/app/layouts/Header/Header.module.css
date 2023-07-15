@@ -1,0 +1,10 @@
+.header {
+	padding: 15px 0 30px;
+	background-color: var(--color-black);
+}
+
+.header_top {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
