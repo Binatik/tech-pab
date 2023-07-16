@@ -1,5 +1,9 @@
+import classNames from 'classnames'
 import { ICardPrimary } from '../app/types'
-import { Banner, CardsPrimary, Frame } from '../widgets'
+import { Heading, Paragraph } from '../entities'
+import { GetConsultation } from '../features'
+import { Banner, CardsPrimary } from '../widgets'
+import styles from './Tech.module.css'
 
 const cards: ICardPrimary[] = [
 	{
@@ -60,10 +64,30 @@ function Tech() {
 			</div>
 			<div className="bg-white">
 				<div className="container">
-					<Frame
-						title="Не знаете, какое направление выбрать?"
-						text="Оставьте заявку на бесплатную консультацию и мы поможем"
-					/>
+					<div className={styles.consultation}>
+						<div className={styles.consultation_item}>
+							<Heading
+								className={styles.consultation_heading}
+								heading="h2"
+								mode="secondary"
+								size="extra41">
+								Не знаете, какое направление выбрать?
+							</Heading>
+							<Paragraph
+								className={styles.consultation_paragraph}
+								mode="secondary"
+								size="medium18">
+								Оставьте заявку на бесплатную консультацию и мы поможем
+							</Paragraph>
+						</div>
+						<div
+							className={classNames(
+								styles.consultation_item,
+								styles.consultation_button
+							)}>
+							<GetConsultation />
+						</div>
+					</div>
 				</div>
 			</div>
 		</main>

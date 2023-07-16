@@ -1,4 +1,4 @@
-.frame {
+.consultation {
 	padding: 50px 30px;
 	margin-top: 100px;
 	display: flex;
@@ -8,19 +8,19 @@
 	border-radius: var(--border);
 }
 
-.frame_item {
+.consultation_item {
 	flex: 1 1;
 }
 
-.frame_heading {
+.consultation_heading {
 	margin-bottom: 30px;
 }
 
-.frame_paragraph {
+.consultation_paragraph {
 	margin-bottom: 30px;
 }
 
-.frame_button {
+.consultation_button {
 	text-align: right;
 }
 
@@ -30,7 +30,7 @@
 
 /* Мобильные устройства MD */
 @media (max-width: 48rem) {
-	.frame {
+	.consultation {
 		flex-direction: column;
 		align-items: flex-start;
 	}
@@ -38,7 +38,7 @@
 
 /* Мобильные устройства sm */
 @media (max-width: 36rem) {
-	.frame_button {
+	.consultation_button {
 		text-align: left;
 	}
 }

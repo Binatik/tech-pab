@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import { Heading, Link, Paragraph } from '../../../entities'
+import { Frame, Heading, Link, Paragraph } from '../../../entities'
 import { ICardsPrimaryProps } from './CardsPrimary.interface'
 import styles from './CardsPrimary.module.css'
 
@@ -12,7 +12,8 @@ function CardsPrimary({ cards, title, size }: ICardsPrimaryProps) {
 			<div className={styles.cards}>
 				{cards ? (
 					cards.map((card) => (
-						<div
+						<Frame
+							size="medium"
 							key={card.id}
 							className={classNames(styles.card, {
 								[styles.card_size_1]: size === '1',
@@ -46,7 +47,7 @@ function CardsPrimary({ cards, title, size }: ICardsPrimaryProps) {
 									</Link>
 								)}
 							</div>
-						</div>
+						</Frame>
 					))
 				) : (
 					<Paragraph mode="primary" size="small16">

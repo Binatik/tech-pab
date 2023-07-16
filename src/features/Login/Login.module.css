@@ -13,10 +13,6 @@
 	stroke-width: 2px;
 }
 
-/* Компьютерное устройство L */
-@media (max-width: 62rem) {
-}
-
 /* Мобильные устройства MD */
 @media (max-width: 48rem) {
 	.login > svg {

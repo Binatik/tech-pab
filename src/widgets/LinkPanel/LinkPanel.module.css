@@ -10,11 +10,3 @@
 		flex: 1 1 auto;
 	}
 }
-
-/* Мобильные устройства MD */
-@media (max-width: 48rem) {
-}
-
-/* Мобильные устройства sm */
-@media (max-width: 36rem) {
-}

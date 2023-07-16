@@ -22,26 +22,10 @@
 	height: auto;
 }
 
-/* Компьютерное устройство L */
-@media (max-width: 62rem) {
-}
-
-/* Мобильные устройства MD */
-@media (max-width: 48rem) {
-}
-
 /* Мобильные устройства sm */
 @media (max-width: 36rem) {
 	.logo_size_medium {
 		width: 180px;
 		height: auto;
 	}
-}
-
-@media (hover: hover) {
-	/* when hover is supported */
-}
-
-@media (hover: none) {
-	/* when hover is supported */
 }

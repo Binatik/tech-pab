@@ -57,10 +57,6 @@
 	margin-bottom: 30px;
 }
 
-/* Компьютерное устройство L */
-@media (max-width: 62rem) {
-}
-
 /* Мобильные устройства MD */
 @media (max-width: 48rem) {
 	.card_size_2 {

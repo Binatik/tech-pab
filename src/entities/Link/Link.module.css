@@ -43,14 +43,6 @@
 	outline: 1px solid #f01212 !important;
 }
 
-/* Компьютерное устройство L */
-@media (max-width: 62rem) {
-}
-
-/* Мобильные устройства MD */
-@media (max-width: 48rem) {
-}
-
 /* Мобильные устройства sm */
 @media (max-width: 36rem) {
 	.link {

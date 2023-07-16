@@ -35,10 +35,6 @@
 	}
 }
 
-/* Мобильные устройства MD */
-@media (max-width: 48rem) {
-}
-
 /* Мобильные устройства sm */
 @media (max-width: 36rem) {
 	.paragraph_size_extra {

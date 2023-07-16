@@ -30,17 +30,6 @@
 	z-index: 1;
 }
 
-/* Компьютерное устройство L */
-@media (max-width: 62rem) {
-	/* .banner_img {
-		width: 80%;
-	} */
-}
-
-/* Мобильные устройства MD */
-@media (max-width: 48rem) {
-}
-
 /* Мобильные устройства sm */
 @media (max-width: 36rem) {
 	.banner {

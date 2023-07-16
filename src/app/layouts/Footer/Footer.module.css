@@ -19,10 +19,6 @@
 	margin-top: -30px;
 }
 
-/* Компьютерное устройство L */
-@media (min-width: 62rem) {
-}
-
 /* Мобильные устройства MD */
 @media (max-width: 48rem) {
 	.footer_card {
@@ -32,10 +28,6 @@
 	.foter_cop {
 		margin-top: 0;
 	}
-}
-
-/* Мобильные устройства sm */
-@media (max-width: 36rem) {
 }
 
 @media (max-width: 26rem) {
