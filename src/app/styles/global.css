@@ -49,7 +49,6 @@ body,
 
 .footer {
 	flex: 0 0 auto;
-	min-height: 1000px;
 	padding: 100px 0;
 }
 
@@ -59,6 +58,10 @@ body,
 
 .bg-white {
 	background-color: var(--color-white);
+}
+
+.space_middle {
+	padding: 80px 0;
 }
 
 /* Компьютерное устройство L */
