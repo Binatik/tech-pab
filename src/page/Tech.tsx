@@ -11,7 +11,7 @@ const cards: ICardPrimary[] = [
 		bottomText: 'Получите навыки, необходимые для проактивного реагирования на киберугрозы',
 		title: 'Threat Intelligence',
 		topText: 'Практический курс по киберразведке',
-		pathPage: '#',
+		pathPage: 'https://api.jsonserve.com/Qsr28s',
 	},
 
 	{
@@ -19,7 +19,7 @@ const cards: ICardPrimary[] = [
 		bottomText: 'Получите навыки, необходимые для проактивного реагирования на киберугрозы',
 		title: 'Threat Intelligence',
 		topText: 'Практический курс по киберразведке',
-		pathPage: '#',
+		pathPage: 'https://api.jsonserve.com/Qsr28s',
 	},
 
 	{
@@ -27,7 +27,7 @@ const cards: ICardPrimary[] = [
 		bottomText: 'Получите навыки, необходимые для проактивного реагирования на киберугрозы',
 		title: 'Threat Intelligence',
 		topText: 'Практический курс по киберразведке',
-		pathPage: '#',
+		pathPage: 'https://api.jsonserve.com/Qsr28s',
 	},
 
 	{
@@ -35,7 +35,7 @@ const cards: ICardPrimary[] = [
 		bottomText: 'Получите навыки, необходимые для проактивного реагирования на киберугрозы',
 		title: 'Threat Intelligence',
 		topText: 'Практический курс по киберразведке',
-		pathPage: '#',
+		pathPage: 'https://api.jsonserve.com/Qsr28s',
 	},
 
 	{
@@ -43,7 +43,12 @@ const cards: ICardPrimary[] = [
 		bottomText: 'Получите навыки, необходимые для проактивного реагирования на киберугрозы',
 		title: 'Threat Intelligence',
 		topText: 'Практический курс по киберразведке',
-		pathPage: '#',
+		pathPage: 'https://api.jsonserve.com/Qsr28s',
+		content: (
+			<Heading heading="h2" mode="primary" size="extra41">
+				Забронировать место в группе
+			</Heading>
+		),
 	},
 ]
 
@@ -57,7 +62,7 @@ function Tech() {
 			</div>
 			<div className="bg-white space_middle">
 				<div className="container">
-					<section className="training">
+					<section id="program" className="training">
 						<CardsPrimary title="Программы обучения" size="2" cards={cards} />
 					</section>
 				</div>

@@ -9,5 +9,6 @@ export interface ICardPrimary {
 	topText: string
 	title: string
 	bottomText: string
-	pathPage?: string
+	pathPage: string
+	content?: React.ReactNode
 }
