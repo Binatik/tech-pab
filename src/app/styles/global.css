@@ -65,6 +65,21 @@ body,
 	padding: 80px 0;
 }
 
+.modal_transition-enter {
+	opacity: 0;
+}
+.modal_transition-enter-active {
+	opacity: 1;
+	transition: opacity 300ms, transform 300ms;
+}
+.modal_transition-exit {
+	opacity: 1;
+}
+.modal_transition-exit-active {
+	opacity: 0;
+	transition: opacity 300ms, transform 300ms;
+}
+
 /* Компьютерное устройство L */
 @media (max-width: 62rem) {
 }
