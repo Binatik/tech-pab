@@ -1,0 +1,26 @@
+.modal {
+	cursor: pointer;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--color-transpernat);
+	pointer-events: 'none';
+	z-index: 5;
+}
+
+.modal_inner {
+	cursor: auto;
+	padding: 40px;
+	background-color: var(--color-white);
+}
+
+.modal_close {
+	position: fixed;
+	right: 0;
+	top: 0;
+}

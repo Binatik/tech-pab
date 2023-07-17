@@ -1,0 +1,28 @@
+.close {
+	cursor: pointer;
+	transition: fill 0.2s;
+}
+
+.close_size_medium {
+	padding: 10px;
+	width: 50px;
+	height: auto;
+}
+
+.close_primary {
+	fill: var(--color-white);
+}
+
+@media (hover: hover) {
+	/* when hover is supported */
+	.close_primary:hover {
+		fill: var(--color-transpernat);
+	}
+}
+
+@media (hover: none) {
+	/* when hover is supported */
+	.close_primary:active {
+		fill: var(--color-transpernat);
+	}
+}
