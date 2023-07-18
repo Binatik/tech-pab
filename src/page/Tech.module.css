@@ -1,5 +1,5 @@
 .training {
-	padding: 40px 0;
+	padding: 40px 0 80px;
 	background-color: var(--color-white);
 }
 
@@ -40,21 +40,19 @@
 }
 
 .bighole_title {
-	font-style: italic;
-	font-weight: 400;
 	margin-bottom: 40px;
 }
 
-/* Компьютерное устройство L */
-@media (max-width: 62rem) {
+.bighole_description {
+	margin-bottom: 40px;
+}
+
+.bighole_info {
+	margin-bottom: 40px;
 }
 
 /* Мобильные устройства MD */
 @media (max-width: 48rem) {
-	.training_title {
-		margin-bottom: 40px;
-	}
-
 	.consultation {
 		flex-direction: column;
 		align-items: flex-start;

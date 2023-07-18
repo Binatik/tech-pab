@@ -90,13 +90,59 @@ function Tech() {
 						heading="h2"
 						mode="primary"
 						size="extra41">
+						Как проходит обучение
+					</Heading>
+					<Paragraph
+						className={styles.bighole_description}
+						mode="primary"
+						size="medium18">
+						Далеко-далеко за словесными горами, в стране гласных и согласных живут
+						рыбные тексты. Агентство диких приставка вскоре но, пояс обеспечивает
+						большой, заглавных дороге, живет решила от всех реторический города!
+					</Paragraph>
+					<Paragraph
+						className={styles.bighole_description}
+						mode="primary"
+						size="medium18">
+						Далеко-далеко за словесными горами, в стране гласных и согласных живут
+						рыбные тексты. Агентство диких приставка вскоре но, пояс обеспечивает
+						большой, заглавных дороге, живет решила от всех реторический города!
+					</Paragraph>
+					<Paragraph className={styles.bighole_info} mode="primary" size="extra36" italic>
 						Чтобы выполнить задачи и обеспечить безопасность «Bighole», вам нужно
 						столкнуться с такими формами обучения:
-					</Heading>
+					</Paragraph>
 					<IconBlock position="left" icon={<Monitor />}>
 						<Heading heading="h2" mode="primary" size="medium18">
 							Лекции
 						</Heading>
+						<Paragraph mode="primary" size="medium18">
+							15 лекций по 40 минут
+						</Paragraph>
+						<Paragraph italic mode="primary" size="medium18">
+							Далеко-далеко за словесными горами в стране гласных и согласных.
+						</Paragraph>
+					</IconBlock>
+
+					<IconBlock position="left" icon={<Monitor />}>
+						<Heading heading="h2" mode="primary" size="medium18">
+							Онлайн-вебинары с наставником
+						</Heading>
+						<Paragraph mode="primary" size="medium18">
+							10 лекций по 90 минут
+						</Paragraph>
+						<Paragraph italic mode="primary" size="medium18">
+							Далеко-далеко за словесными горами в стране гласных и согласных.
+						</Paragraph>
+						<Paragraph mode="primary" size="medium18">
+							● Далеко-далеко за словесными горами в стране гласных и согласных.
+						</Paragraph>
+						<Paragraph mode="primary" size="medium18">
+							● Далеко-далеко за словесными горами в стране гласных и согласных.
+						</Paragraph>
+						<Paragraph mode="primary" size="medium18">
+							● Далеко-далеко за словесными горами в стране гласных и согласных.
+						</Paragraph>
 					</IconBlock>
 				</div>
 			</section>

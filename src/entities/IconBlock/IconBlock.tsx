@@ -10,7 +10,7 @@ function IconBlock({ children, position, icon }: IIconBlockProps) {
 				[styles.blocks_left]: position === 'left',
 			})}>
 			<div className={styles.icon}>{icon}</div>
-			<div>{children}</div>
+			<div className={styles.content}>{children}</div>
 		</div>
 	)
 }

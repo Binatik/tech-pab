@@ -18,6 +18,9 @@ function Heading({ heading, mode, size, className, children }: IHeadingProps) {
 		case 'h2':
 			return <h2 className={classNames(styles.heading, className, styleList)}>{children}</h2>
 
+		case 'h3':
+			return <h3 className={classNames(styles.heading, className, styleList)}>{children}</h3>
+
 		default:
 			break
 	}

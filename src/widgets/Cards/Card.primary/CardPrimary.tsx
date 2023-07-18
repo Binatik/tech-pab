@@ -40,7 +40,7 @@ function CardPrimary({ card, columns }: ICardsPrimaryProps) {
 				</Paragraph>
 				<Heading
 					className={styles.card_top_title}
-					heading="h2"
+					heading="h3"
 					size="medium18"
 					mode="primary">
 					{card.title}
