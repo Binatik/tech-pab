@@ -1,0 +1,18 @@
+.blocks {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.blocks_top {
+	flex-direction: column;
+}
+
+.blocks_left {
+	flex-direction: row;
+}
+
+.icon > svg {
+	width: 40px;
+	height: auto;
+	fill: var(--color-black);
+}

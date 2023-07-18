@@ -1,8 +1,9 @@
 import classNames from 'classnames'
 import { ICardPrimary } from '../app/types'
-import { Heading, Paragraph } from '../entities'
+import { Heading, IconBlock, Paragraph } from '../entities'
 import { GetConsultation } from '../features'
 import { Banner, CardPrimary } from '../widgets'
+import { ReactComponent as Monitor } from '../assets/monitor.svg'
 import styles from './Tech.module.css'
 
 const cards: ICardPrimary[] = [
@@ -80,6 +81,23 @@ function Tech() {
 							</Paragraph>
 						)}
 					</div>
+				</div>
+			</section>
+			<section className={styles.bighole}>
+				<div className="container">
+					<Heading
+						className={styles.bighole_title}
+						heading="h2"
+						mode="primary"
+						size="extra41">
+						Чтобы выполнить задачи и обеспечить безопасность «Bighole», вам нужно
+						столкнуться с такими формами обучения:
+					</Heading>
+					<IconBlock position="left" icon={<Monitor />}>
+						<Heading heading="h2" mode="primary" size="medium18">
+							Лекции
+						</Heading>
+					</IconBlock>
 				</div>
 			</section>
 

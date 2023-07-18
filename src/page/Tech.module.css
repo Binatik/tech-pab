@@ -39,6 +39,12 @@
 	text-align: right;
 }
 
+.bighole_title {
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
 /* Компьютерное устройство L */
 @media (max-width: 62rem) {
 }
