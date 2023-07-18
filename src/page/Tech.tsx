@@ -1,11 +1,54 @@
 import classNames from 'classnames'
-import { ICardPrimary } from '../app/types'
+import { ICardPrimary, IProduct } from '../app/types'
 import { Heading, IconBlock, Paragraph } from '../entities'
 import { GetConsultation } from '../features'
 import { Banner, CardPrimary } from '../widgets'
 import { ReactComponent as Monitor } from '../assets/monitor.svg'
 import certificate from '../assets/certificate.png'
 import styles from './Tech.module.css'
+
+const products: IProduct[] = [
+	{
+		id: '111-222',
+		title: 'Онлайн вебинары',
+		text: `Далеко-далеко за словесными горами в стране гласных и
+согласных живут, рыбные тексты. Речью парадигматическая
+маленькая решила, обеспечивает пор сих подзаголовок
+переписывается но сбить безорфографичный рукописи деревни
+рекламных?`,
+		icon: <Monitor />,
+	},
+	{
+		id: '111-333',
+		title: 'Онлайн вебинары',
+		text: `Далеко-далеко за словесными горами в стране гласных и
+согласных живут, рыбные тексты. Речью парадигматическая
+маленькая решила, обеспечивает пор сих подзаголовок
+переписывается но сбить безорфографичный рукописи деревни
+рекламных?`,
+		icon: <Monitor />,
+	},
+	{
+		id: '111-444',
+		title: 'Онлайн вебинары',
+		text: `Далеко-далеко за словесными горами в стране гласных и
+согласных живут, рыбные тексты. Речью парадигматическая
+маленькая решила, обеспечивает пор сих подзаголовок
+переписывается но сбить безорфографичный рукописи деревни
+рекламных?`,
+		icon: <Monitor />,
+	},
+	{
+		id: '111-555',
+		title: 'Онлайн вебинары',
+		text: `Далеко-далеко за словесными горами в стране гласных и
+согласных живут, рыбные тексты. Речью парадигматическая
+маленькая решила, обеспечивает пор сих подзаголовок
+переписывается но сбить безорфографичный рукописи деревни
+рекламных?`,
+		icon: <Monitor />,
+	},
+]
 
 const cards: ICardPrimary[] = [
 	{
@@ -66,62 +109,18 @@ function Tech() {
 				<div className="container">
 					<div className={styles.product_content}>
 						<div className={styles.product_list}>
-							<div className={styles.product_item}>
-								<IconBlock position="top" icon={<Monitor />}>
-									<Heading heading="h2" mode="primary" size="medium18">
-										Онлайн вебинары
-									</Heading>
-									<Paragraph mode="primary" size="medium18">
-										Далеко-далеко за словесными горами в стране гласных и
-										согласных живут, рыбные тексты. Речью парадигматическая
-										маленькая решила, обеспечивает пор сих подзаголовок
-										переписывается но сбить безорфографичный рукописи деревни
-										рекламных?
-									</Paragraph>
-								</IconBlock>
-							</div>
-							<div className={styles.product_item}>
-								<IconBlock position="top" icon={<Monitor />}>
-									<Heading heading="h2" mode="primary" size="medium18">
-										Онлайн вебинары
-									</Heading>
-									<Paragraph mode="primary" size="medium18">
-										Далеко-далеко за словесными горами в стране гласных и
-										согласных живут, рыбные тексты. Речью парадигматическая
-										маленькая решила, обеспечивает пор сих подзаголовок
-										переписывается но сбить безорфографичный рукописи деревни
-										рекламных?
-									</Paragraph>
-								</IconBlock>
-							</div>
-							<div className={styles.product_item}>
-								<IconBlock position="top" icon={<Monitor />}>
-									<Heading heading="h2" mode="primary" size="medium18">
-										Онлайн вебинары
-									</Heading>
-									<Paragraph mode="primary" size="medium18">
-										Далеко-далеко за словесными горами в стране гласных и
-										согласных живут, рыбные тексты. Речью парадигматическая
-										маленькая решила, обеспечивает пор сих подзаголовок
-										переписывается но сбить безорфографичный рукописи деревни
-										рекламных?
-									</Paragraph>
-								</IconBlock>
-							</div>
-							<div className={styles.product_item}>
-								<IconBlock position="top" icon={<Monitor />}>
-									<Heading heading="h2" mode="primary" size="medium18">
-										Онлайн вебинары
-									</Heading>
-									<Paragraph mode="primary" size="medium18">
-										Далеко-далеко за словесными горами в стране гласных и
-										согласных живут, рыбные тексты. Речью парадигматическая
-										маленькая решила, обеспечивает пор сих подзаголовок
-										переписывается но сбить безорфографичный рукописи деревни
-										рекламных?
-									</Paragraph>
-								</IconBlock>
-							</div>
+							{products.map((product) => (
+								<div key={product.id} className={styles.product_item}>
+									<IconBlock position="top" icon={product.icon}>
+										<Heading heading="h2" mode="primary" size="medium18">
+											{product.title}
+										</Heading>
+										<Paragraph mode="primary" size="medium18">
+											{product.text}
+										</Paragraph>
+									</IconBlock>
+								</div>
+							))}
 						</div>
 						<div className={styles.certificate}>
 							<Paragraph mode="primary" size="medium18">

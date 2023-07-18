@@ -12,3 +12,10 @@ export interface ICardPrimary {
 	pathPage: string
 	content?: React.ReactNode
 }
+
+export interface IProduct {
+	id: string
+	title: string
+	text: string
+	icon: React.ReactNode
+}
