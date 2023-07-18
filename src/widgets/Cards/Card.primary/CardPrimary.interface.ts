@@ -3,7 +3,6 @@ import { ICardPrimary } from '../../../app/types'
 
 export interface ICardsPrimaryProps
 	extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
-	title: string
-	cards: ICardPrimary[]
-	size: '1' | '2'
+	card: ICardPrimary
+	columns: '1' | '2'
 }

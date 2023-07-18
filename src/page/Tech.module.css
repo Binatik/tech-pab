@@ -1,3 +1,18 @@
+.training {
+	padding: 40px 0;
+	background-color: var(--color-white);
+}
+
+.training_title {
+	margin-bottom: 80px;
+}
+
+.training_cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
 .consultation {
 	padding: 50px 30px;
 	margin-top: 100px;
@@ -30,6 +45,10 @@
 
 /* Мобильные устройства MD */
 @media (max-width: 48rem) {
+	.training_title {
+		margin-bottom: 40px;
+	}
+
 	.consultation {
 		flex-direction: column;
 		align-items: flex-start;

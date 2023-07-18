@@ -2,7 +2,7 @@ import classNames from 'classnames'
 import { ICardPrimary } from '../app/types'
 import { Heading, Paragraph } from '../entities'
 import { GetConsultation } from '../features'
-import { Banner, CardsPrimary } from '../widgets'
+import { Banner, CardPrimary } from '../widgets'
 import styles from './Tech.module.css'
 
 const cards: ICardPrimary[] = [
@@ -60,13 +60,29 @@ function Tech() {
 					<Banner />
 				</div>
 			</div>
-			<div className="bg-white space_middle">
+			<section id="training" className={styles.training}>
 				<div className="container">
-					<section id="program" className="training">
-						<CardsPrimary title="Программы обучения" size="2" cards={cards} />
-					</section>
+					<Heading
+						className={styles.training_title}
+						heading="h2"
+						mode="primary"
+						size="extra41">
+						Программы обучения
+					</Heading>
+					<div className={styles.training_cards}>
+						{cards.length > 0 ? (
+							cards.map((card) => (
+								<CardPrimary key={card.id} columns="2" card={card} />
+							))
+						) : (
+							<Paragraph mode="primary" size="small16">
+								Нет данных
+							</Paragraph>
+						)}
+					</div>
 				</div>
-			</div>
+			</section>
+
 			<div className="bg-white">
 				<div className="container">
 					<div className={styles.consultation}>

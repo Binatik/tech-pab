@@ -1,13 +1,3 @@
-.cards_title {
-	margin-bottom: 80px;
-}
-
-.cards {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 3rem;
-}
-
 .card {
 	position: relative;
 	padding: 30px;
@@ -31,11 +21,11 @@
 	z-index: 2;
 }
 
-.card_size_1 {
+.card_columns_1 {
 	flex: 1 1 auto;
 }
 
-.card_size_2 {
+.card_columns_2 {
 	flex: 1 1 calc(100% / 2 - 3rem);
 }
 
@@ -59,19 +49,11 @@
 
 /* Мобильные устройства MD */
 @media (max-width: 48rem) {
-	.card_size_2 {
+	.card_columns_2 {
 		flex: 1 1 auto;
 	}
 
 	.cards_title {
 		margin-bottom: 40px;
-	}
-}
-
-/* Мобильные устройства sm */
-@media (max-width: 36rem) {
-	.logo_size_medium {
-		width: 180px;
-		height: auto;
 	}
 }
