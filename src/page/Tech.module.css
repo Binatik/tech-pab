@@ -1,5 +1,5 @@
 .product {
-	padding: 50px 0 40px;
+	padding: 40px 0 40px;
 }
 
 .product_content {
@@ -98,6 +98,10 @@
 
 /* Мобильные устройства sm */
 @media (max-width: 36rem) {
+	.product_list {
+		flex-direction: column;
+	}
+
 	.product_item {
 		flex: 1 1;
 	}

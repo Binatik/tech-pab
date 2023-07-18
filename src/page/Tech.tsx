@@ -20,7 +20,7 @@ const products: IProduct[] = [
 	},
 	{
 		id: '111-333',
-		title: 'Онлайн вебинары',
+		title: 'Практика в симуляторе',
 		text: `Далеко-далеко за словесными горами в стране гласных и
 согласных живут, рыбные тексты. Речью парадигматическая
 маленькая решила, обеспечивает пор сих подзаголовок
@@ -86,8 +86,8 @@ const cards: ICardPrimary[] = [
 	{
 		id: '111-666',
 		bottomText: 'Получите навыки, необходимые для проактивного реагирования на киберугрозы',
-		title: 'Threat Intelligence',
-		topText: 'Практический курс по киберразведке',
+		title: 'new Threat',
+		topText: 'Обновленный практический курс по киберразведке',
 		pathPage: 'https://api.jsonserve.com/Qsr28s',
 		content: (
 			<Heading heading="h2" mode="primary" size="extra41">
