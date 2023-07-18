@@ -4,6 +4,7 @@ import { Heading, IconBlock, Paragraph } from '../entities'
 import { GetConsultation } from '../features'
 import { Banner, CardPrimary } from '../widgets'
 import { ReactComponent as Monitor } from '../assets/monitor.svg'
+import certificate from '../assets/certificate.png'
 import styles from './Tech.module.css'
 
 const cards: ICardPrimary[] = [
@@ -59,6 +60,80 @@ function Tech() {
 			<div className="bg-black">
 				<div className="container">
 					<Banner />
+				</div>
+			</div>
+			<div className={styles.product}>
+				<div className="container">
+					<div className={styles.product_content}>
+						<div className={styles.product_list}>
+							<div className={styles.product_item}>
+								<IconBlock position="top" icon={<Monitor />}>
+									<Heading heading="h2" mode="primary" size="medium18">
+										Онлайн вебинары
+									</Heading>
+									<Paragraph mode="primary" size="medium18">
+										Далеко-далеко за словесными горами в стране гласных и
+										согласных живут, рыбные тексты. Речью парадигматическая
+										маленькая решила, обеспечивает пор сих подзаголовок
+										переписывается но сбить безорфографичный рукописи деревни
+										рекламных?
+									</Paragraph>
+								</IconBlock>
+							</div>
+							<div className={styles.product_item}>
+								<IconBlock position="top" icon={<Monitor />}>
+									<Heading heading="h2" mode="primary" size="medium18">
+										Онлайн вебинары
+									</Heading>
+									<Paragraph mode="primary" size="medium18">
+										Далеко-далеко за словесными горами в стране гласных и
+										согласных живут, рыбные тексты. Речью парадигматическая
+										маленькая решила, обеспечивает пор сих подзаголовок
+										переписывается но сбить безорфографичный рукописи деревни
+										рекламных?
+									</Paragraph>
+								</IconBlock>
+							</div>
+							<div className={styles.product_item}>
+								<IconBlock position="top" icon={<Monitor />}>
+									<Heading heading="h2" mode="primary" size="medium18">
+										Онлайн вебинары
+									</Heading>
+									<Paragraph mode="primary" size="medium18">
+										Далеко-далеко за словесными горами в стране гласных и
+										согласных живут, рыбные тексты. Речью парадигматическая
+										маленькая решила, обеспечивает пор сих подзаголовок
+										переписывается но сбить безорфографичный рукописи деревни
+										рекламных?
+									</Paragraph>
+								</IconBlock>
+							</div>
+							<div className={styles.product_item}>
+								<IconBlock position="top" icon={<Monitor />}>
+									<Heading heading="h2" mode="primary" size="medium18">
+										Онлайн вебинары
+									</Heading>
+									<Paragraph mode="primary" size="medium18">
+										Далеко-далеко за словесными горами в стране гласных и
+										согласных живут, рыбные тексты. Речью парадигматическая
+										маленькая решила, обеспечивает пор сих подзаголовок
+										переписывается но сбить безорфографичный рукописи деревни
+										рекламных?
+									</Paragraph>
+								</IconBlock>
+							</div>
+						</div>
+						<div className={styles.certificate}>
+							<Paragraph mode="primary" size="medium18">
+								После успешного прохождения курса выдается электронный сертификат
+							</Paragraph>
+							<img
+								className={styles.certificate_img}
+								src={certificate}
+								alt="certificate"
+							/>
+						</div>
+					</div>
 				</div>
 			</div>
 			<section id="training" className={styles.training}>
